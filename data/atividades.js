@@ -145,7 +145,9 @@ export const atividades = {
 };
 
 export const kiwifyLinks = {
-  individual: "https://kiwify.com.br/seu-link-individual",
-  completo: "https://kiwify.com.br/seu-link-completo",
-  escola: "https://kiwify.com.br/seu-link-escola",
+  matematica: "https://pay.kiwify.com.br/txcrsAa",
+  portugues: "https://pay.kiwify.com.br/DV9ypUt",
+  ciencias: "https://pay.kiwify.com.br/cvNKE4d",
+  completo: "https://pay.kiwify.com.br/zj7MksG",
+  escola: "https://pay.kiwify.com.br/E07JP7j",
 };

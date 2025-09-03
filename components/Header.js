@@ -3,10 +3,10 @@ import Link from "next/link";
 export default function Header() {
   // Links temporários - substitua pelos seus links reais do Kiwify
   const kiwifyLinks = {
-    completo: "https://kiwify.com.br/seu-link-aqui", // Substitua pelo seu link
-    matematica: "https://kiwify.com.br/matematica",
-    portugues: "https://kiwify.com.br/portugues",
-    ciencias: "https://kiwify.com.br/ciencias",
+    completo: "https://pay.kiwify.com.br/zj7MksG", // Substitua pelo seu link
+    matematica: "https://pay.kiwify.com.br/txcrsAa",
+    portugues: "https://pay.kiwify.com.br/DV9ypUt",
+    ciencias: "https://pay.kiwify.com.br/cvNKE4d",
   };
 
   return (

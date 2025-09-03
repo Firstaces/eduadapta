@@ -397,24 +397,72 @@ export default function Home() {
               Planos para Professores
             </h3>
             <div className="grid md:grid-cols-3 gap-6">
-              <div className="border-2 border-gray-200 rounded-xl p-6 text-center hover:border-blue-400 transition-all">
-                <h4 className="text-xl font-bold mb-2">Kit Individual</h4>
-                <div className="text-3xl font-bold text-blue-600 mb-4">
+              {/* Kit Individual - Matemática */}
+              <div className="border-2 border-orange-200 rounded-xl p-6 text-center hover:border-orange-400 transition-all">
+                <div className="text-3xl mb-2">🔢</div>
+                <h4 className="text-xl font-bold mb-2">Kit Matemática</h4>
+                <div className="text-3xl font-bold text-orange-600 mb-4">
                   R$ 47
                 </div>
                 <ul className="text-sm space-y-2 mb-6">
-                  <li>✓ 1 matéria escolhida</li>
-                  <li>✓ 20 atividades adaptadas</li>
+                  <li>✓ 20 atividades de Matemática</li>
+                  <li>✓ Situações práticas do cotidiano</li>
                   <li>✓ Guia do professor</li>
                   <li>✓ Formato para impressão</li>
                 </ul>
                 <a
-                  href={kiwifyLinks.individual}
+                  href={kiwifyLinks.matematica}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-all inline-block"
+                  className="w-full bg-orange-600 text-white py-2 rounded-lg hover:bg-orange-700 transition-all inline-block"
                 >
-                  Comprar
+                  Comprar Kit Matemática
+                </a>
+              </div>
+
+              {/* Kit Individual - Português */}
+              <div className="border-2 border-green-200 rounded-xl p-6 text-center hover:border-green-400 transition-all">
+                <div className="text-3xl mb-2">📝</div>
+                <h4 className="text-xl font-bold mb-2">Kit Português</h4>
+                <div className="text-3xl font-bold text-green-600 mb-4">
+                  R$ 47
+                </div>
+                <ul className="text-sm space-y-2 mb-6">
+                  <li>✓ 20 atividades de Português</li>
+                  <li>✓ Gêneros textuais variados</li>
+                  <li>✓ Guia do professor</li>
+                  <li>✓ Formato para impressão</li>
+                </ul>
+                <a
+                  href={kiwifyLinks.portugues}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-green-700 transition-all inline-block"
+                >
+                  Comprar Kit Português
+                </a>
+              </div>
+
+              {/* Kit Individual - Ciências */}
+              <div className="border-2 border-purple-200 rounded-xl p-6 text-center hover:border-purple-400 transition-all">
+                <div className="text-3xl mb-2">🔬</div>
+                <h4 className="text-xl font-bold mb-2">Kit Ciências</h4>
+                <div className="text-3xl font-bold text-purple-600 mb-4">
+                  R$ 47
+                </div>
+                <ul className="text-sm space-y-2 mb-6">
+                  <li>✓ 20 atividades de Ciências</li>
+                  <li>✓ Ciência aplicada ao cotidiano</li>
+                  <li>✓ Guia do professor</li>
+                  <li>✓ Formato para impressão</li>
+                </ul>
+                <a
+                  href={kiwifyLinks.ciencias}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full bg-purple-600 text-white py-2 rounded-lg hover:bg-purple-700 transition-all inline-block"
+                >
+                  Comprar Kit Ciências
                 </a>
               </div>
 
